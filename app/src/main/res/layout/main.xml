@@ -1,0 +1,145 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear8"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#111A21"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#111A21"
+			android:orientation="vertical">
+			<LinearLayout
+				android:id="@+id/linear2"
+				android:layout_width="match_parent"
+				android:layout_height="56dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="horizontal">
+				<ImageView
+					android:id="@+id/imageview1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="16dp"
+					android:src="@drawable/ic_menu_white"
+					android:scaleType="center" />
+				<TextView
+					android:id="@+id/textview1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:gravity="center_horizontal|center_vertical"
+					android:text="MooVie"
+					android:textSize="25sp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF"
+					android:layout_weight="1" />
+				<ImageView
+					android:id="@+id/imageview2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginRight="16dp"
+					android:src="@drawable/ic_search_white"
+					android:scaleType="center" />
+			</LinearLayout>
+			<TextView
+				android:id="@+id/textview2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="16dp"
+				android:layout_marginTop="8dp"
+				android:layout_marginRight="16dp"
+				android:layout_marginBottom="8dp"
+				android:text="MooVie originals"
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF" />
+			<LinearLayout
+				android:id="@+id/linear3"
+				android:layout_width="match_parent"
+				android:layout_height="216dp"
+				android:paddingTop="8dp"
+				android:paddingBottom="8dp"
+				android:orientation="horizontal" />
+			<TextView
+				android:id="@+id/textview3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="16dp"
+				android:layout_marginTop="8dp"
+				android:layout_marginRight="16dp"
+				android:layout_marginBottom="8dp"
+				android:text="Trending now"
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF" />
+			<HorizontalScrollView
+				android:id="@+id/hscroll2"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+				<LinearLayout
+					android:id="@+id/linear5"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:paddingLeft="16dp"
+					android:paddingTop="8dp"
+					android:paddingRight="16dp"
+					android:paddingBottom="8dp"
+					android:orientation="horizontal" />
+			</HorizontalScrollView>
+			<TextView
+				android:id="@+id/textview4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="16dp"
+				android:layout_marginTop="8dp"
+				android:layout_marginRight="16dp"
+				android:layout_marginBottom="8dp"
+				android:text="Popular on MooVie"
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF" />
+			<HorizontalScrollView
+				android:id="@+id/hscroll3"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+				<LinearLayout
+					android:id="@+id/linear6"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:paddingLeft="16dp"
+					android:paddingTop="8dp"
+					android:paddingRight="16dp"
+					android:paddingBottom="8dp"
+					android:orientation="horizontal" />
+			</HorizontalScrollView>
+			<TextView
+				android:id="@+id/textview5"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="16dp"
+				android:layout_marginTop="8dp"
+				android:layout_marginRight="16dp"
+				android:layout_marginBottom="8dp"
+				android:text="Recommended for you"
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF" />
+			<LinearLayout
+				android:id="@+id/linear7"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:paddingLeft="16dp"
+				android:paddingTop="8dp"
+				android:paddingRight="16dp"
+				android:paddingBottom="8dp"
+				android:orientation="vertical" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
